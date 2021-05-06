@@ -3,10 +3,27 @@
 
 #include <iostream>
 
+using namespace std;
+
+namespace Garry {
+    void print() {
+        
+    }
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "Git\n";
+    Garry::print();
+
+    cout << "Hello World!\n";
+    cout << "Git\n";
+
+    int age;
+    cout << "Enter Age: ";
+    cin >> age;
+    cout << "Age: " << age << endl;
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
